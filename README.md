@@ -44,12 +44,12 @@ to a head model.
 Both face and head can be rendered realistically in any environment.
 
 <p float="left">
-  <img src="img/proc_diffAlb.gif" width="400" alt="Patch process for Diffuse Albedo" title="Patch process for Diffuse Albedo" />
-  <img src="img/proc_specAlbs.gif" width="400" alt="Patch prosses for Specular Albedo" title="Patch prosses for Specular Albedo"/>
+  <img src="img/proc_diffAlb.gif" width="400" alt="Patch process for Diffuse Albedo" title="Patch process for Diffuse Albedo" hspace=20/>
+  <img src="img/proc_specAlbs.gif" width="400" alt="Patch prosses for Specular Albedo" title="Patch prosses for Specular Albedo">
   <p> Patch process for Diffuse and Specular Abedo</p>
 </p>
 <p float="left">
-  <img src="img/proc_diffNormals.gif" width="400" alt="Patch process for Diffuse Normals" title="Patch process for Diffuse Normals" />
+  <img src="img/proc_diffNormals.gif" width="400" alt="Patch process for Diffuse Normals" title="Patch process for Diffuse Normals" hspace=20/>
   <img src="img/proc_specNorms.gif" width="400" alt="Patch process for Specular Normals" title="Patch process for Specular Normals"/>
   <p>Patch process for Diffuse and Specular Normals </p>
 </p>
