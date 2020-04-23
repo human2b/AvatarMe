@@ -54,8 +54,15 @@ Both face and head can be rendered realistically in any environment.
   <p>Patch process for Diffuse and Specular Normals </p>
 </p>
 
+### Results
+
+For high quality rendered results see the following youtube [video](https://www.youtube.com/watch?v=fEsgeZPN8Uw).
+
+<a href="https://www.youtube.com/watch?v=fEsgeZPN8Uw">
+   <img alt="Click for HD video results" src="img/results_preview.gif" title="Click for HD video results">
+
 ### Data
-Information about the data will be anounced as soon as possible.
+Information about the public training data will be anounced as soon as possible.
 
 ### Citation
 If you find this work useful, please use the following to cite our paper:
