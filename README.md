@@ -1,4 +1,7 @@
 # [AvatarMe: Realistically Renderable 3D Facial Reconstruction "in-the-wild"](https://arxiv.org/abs/2003.13845):
+[![Youtube Video](https://img.shields.io/badge/HD%20Video-Results-red?logo=youtube)](https://www.youtube.com/watch?v=fEsgeZPN8Uw)
+[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/pdf/2003.13845.pdf)
+
 Public repository for the CVPR 2020 paper AvatarMe, with high resolution results, data and more.
 
 [Alexandros Lattas](https://github.com/lattas)<sup> 1,2</sup>,
