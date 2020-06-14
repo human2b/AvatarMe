@@ -15,10 +15,10 @@ Public repository for the CVPR 2020 paper AvatarMe, with high resolution results
 <br/>
 <sup>1 </sup>Imperial College London
 <br/>
-<sup>2 </sup>FaceSoft.io
+<sup>2 </sup>FaceSoft
 
-[[Preprint]](https://arxiv.org/pdf/2003.13845.pdf)
-__[CVPR 2020]__
+__[[Paper PDF](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lattas_AvatarMe_Realistically_Renderable_3D_Facial_Reconstruction_In-the-Wild_CVPR_2020_paper.pdf)]__
+__[[CVPR 2020](http://cvpr20.com/event/avatarme-realistically-renderable-3d-facial-reconstruction-in-the-wild/)]__
 
 ### Overview
 
@@ -62,7 +62,12 @@ Both face and head can be rendered realistically in any environment.
 For high quality rendered results see the following youtube [video](https://www.youtube.com/watch?v=fEsgeZPN8Uw).
 
 <a href="https://www.youtube.com/watch?v=fEsgeZPN8Uw">
+   <img alt="Click for HD video results" src="img/teaser_image.gif" title="Click for HD video results" height=300>
+</a>
+
+<a href="https://www.youtube.com/watch?v=fEsgeZPN8Uw">
    <img alt="Click for HD video results" src="img/results_preview.gif" title="Click for HD video results">
+</a>
 
 ### Data
 Information about the public training data will be anounced as soon as possible.
