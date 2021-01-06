@@ -69,16 +69,45 @@ For high quality rendered results see the following youtube [video](https://www.
    <img alt="Click for HD video results" src="img/results_preview.gif" title="Click for HD video results">
 </a>
 
-### Data
-Information about the public training data will be anounced as soon as possible.
+### Public Dataset
+*RealfaceDB* can now be obtained by accredited researchers
+and used for training/testing methods similar to AvatarMe.
+
+![Dataset Teaser](img/realfacedb_figure.png "Dataset")
+
+The dataset contains patches of facial reflectance as described in the paper, 
+namely the diffuse albedo, diffuse normals, specular albedo, specular normals,
+as well as the shape in UV space. For the shape, 
+reconstructed meshes have been registered to a common topology
+and the `XYZ` values of the points have been mapped to the `RGB` in UV coordinates and interpolated to complete the UV map.
+From the complete UV maps of `6144x4096` pixels, patches of `512x512` pixels have been sampled.
+The dataset contains 7500 such patches (1500 of each datatype) that are anonymized, randomized
+and sampled so that they do not contain identifiable features.
+
+To obtain access to the dataset,
+you need to complete and sign a licence agreement,
+which should be completed by a full-time academic staff member
+(not a student).
+To obtain the licence agreement and the dataset please send an email to 
+Alexandros Lattas (a.lattas@imperial.ac.uk)
+and Stylianos Moschoglou (s.moschoglou@imperial.ac.uk).
+Please contact us through your academic email
+and include your name and position.
+We will verify your request and contact you regarding how to download the dataset. Note that the agreement requires that:
+
+- The data must be used for non-commercial research and education purposes only.
+- You agree not to copy, sell, trade, or exploit the model for any commercial purposes.
+- You must destroy the data after 2 years since the first download.
+- If you will be publishing any work using this dataset, please cite the following paper.
 
 ### Citation
 If you find this work useful, please use the following to cite our paper:
 ```
-@article{lattas2020avatarme,
-  title={AvatarMe: Realistically Renderable 3D Facial Reconstruction "in-the-wild"},
-  author={Lattas, Alexandros and Moschoglou, Stylianos and Gecer, Baris and Ploumpis, Stylianos and Triantafyllou, Vasileios and Ghosh, Abhijeet and Zafeiriou, Stefanos},
-  journal={arXiv preprint arXiv:2003.13845},
-  year={2020}
+@InProceedings{Lattas_2020_CVPR,
+author = {Lattas, Alexandros and Moschoglou, Stylianos and Gecer, Baris and Ploumpis, Stylianos and Triantafyllou, Vasileios and Ghosh, Abhijeet and Zafeiriou, Stefanos},
+title = {AvatarMe: Realistically Renderable 3D Facial Reconstruction "In-the-Wild"},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
 }
 ```
