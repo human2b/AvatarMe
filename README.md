@@ -20,13 +20,13 @@ Public repository for the CVPR 2020 paper AvatarMe, with high resolution results
 __[[Paper PDF](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lattas_AvatarMe_Realistically_Renderable_3D_Facial_Reconstruction_In-the-Wild_CVPR_2020_paper.pdf)]__
 __[[CVPR 2020](http://cvpr20.com/event/avatarme-realistically-renderable-3d-facial-reconstruction-in-the-wild/)]__
 
-### Overview
+## Overview
 
 ![Intro Image](img/avatarme_teaser.png "Teaser Image")
 
 AvatarMe is the first method that is able to reconstruct photorealistic 3D faces from a single ‘in-the-wild” image with an increasing level of detail. To achieve this, we capture a large dataset of facial shape and reflectance and build on a state-of-the 3D texture and shape reconstruction method and successively refine its results in order to generate the high-resolution diffuse and specular components that are required for realistic rendering.
 
-### Method
+## Method
 
 ![Method Image](img/avatarme_method.png "Method Image")
 
@@ -47,17 +47,17 @@ to a head model.
 Both face and head can be rendered realistically in any environment.
 
 <p float="left">
-  <img src="img/proc_diffAlb.gif" width="400" alt="Patch process for Diffuse Albedo" title="Patch process for Diffuse Albedo" hspace=20/>
-  <img src="img/proc_specAlbs.gif" width="400" alt="Patch prosses for Specular Albedo" title="Patch prosses for Specular Albedo">
+  <img src="img/proc_diffAlb.gif" width="300" alt="Patch process for Diffuse Albedo" title="Patch process for Diffuse Albedo" hspace=20/>
+  <img src="img/proc_specAlbs.gif" width="300" alt="Patch prosses for Specular Albedo" title="Patch prosses for Specular Albedo">
   <p> Patch process for Diffuse and Specular Abedo</p>
 </p>
 <p float="left">
-  <img src="img/proc_diffNormals.gif" width="400" alt="Patch process for Diffuse Normals" title="Patch process for Diffuse Normals" hspace=20/>
-  <img src="img/proc_specNorms.gif" width="400" alt="Patch process for Specular Normals" title="Patch process for Specular Normals"/>
+  <img src="img/proc_diffNormals.gif" width="300" alt="Patch process for Diffuse Normals" title="Patch process for Diffuse Normals" hspace=20/>
+  <img src="img/proc_specNorms.gif" width="300" alt="Patch process for Specular Normals" title="Patch process for Specular Normals"/>
   <p>Patch process for Diffuse and Specular Normals </p>
 </p>
 
-### Results
+## Results
 
 For high quality rendered results see the following youtube [video](https://www.youtube.com/watch?v=fEsgeZPN8Uw).
 
@@ -69,7 +69,9 @@ For high quality rendered results see the following youtube [video](https://www.
    <img alt="Click for HD video results" src="img/results_preview.gif" title="Click for HD video results">
 </a>
 
-### Public Dataset
+<br>
+
+## Public Dataset
 *RealfaceDB* can now be obtained by accredited researchers
 and used for training/testing methods similar to AvatarMe.
 
@@ -100,7 +102,7 @@ We will verify your request and contact you regarding how to download the datase
 - You must destroy the data after 2 years since the first download.
 - If you will be publishing any work using this dataset, please cite the following paper.
 
-### Citation
+## Citation
 If you find this work useful, please use the following to cite our paper:
 ```
 @InProceedings{Lattas_2020_CVPR,
